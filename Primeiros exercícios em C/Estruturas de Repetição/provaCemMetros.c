@@ -1,30 +1,29 @@
 /*Você deve desenvolver um programa para determinar quantas séries a prova de 100 metros rasos deve ter.
 Porém, somente os atletas mais rápidos devem ser aptos a competir, isto é, somente os atletas que correram os 
 100 metros em um tempo inferior ou igual ao estabelecido para inscrição na competição. Desse modo,
-a primeira entrada do programa será o tempo máximo que o atleta pode ter alcançado para estar apto a competir.*/
+a primeira entrada do programa será o tempo máximo que o atleta pode ter alcançado para estar apto a competir.
 
-/*Em seguida, o programa irá receber uma quantidade indeterminada de inscrições até que o valor -1.0
+Em seguida, o programa irá receber uma quantidade indeterminada de inscrições até que o valor -1.0
 seja apresentado. Cada inscrição consiste em um único valor correspondente ao
-tempo em segundos que o atleta correu nos 100 metros registrado até a terceira casa decimal.*/
+tempo em segundos que o atleta correu nos 100 metros registrado até a terceira casa decimal.
 
-/*O programa deve apresentar como saída a quantidade total de atletas aptos a competir e logo em seguida a
-quantidade de séries necessárias para realização da prova de 100 metros.*/
+O programa deve apresentar como saída a quantidade total de atletas aptos a competir e logo em seguida a
+quantidade de séries necessárias para realização da prova de 100 metros.
 
-/*Observe o formato da entrada e saída padrão para ver como esses dados serão inseridos no programa.*/
+Observe o formato da entrada e saída padrão para ver como esses dados serão inseridos no programa.
 
-/*Entrada:
+Entrada:
 12.00
 11.00
 10.50
 11.20
 -1
-*/
 
-/*Saída
+Saída
 3 1
-*/
 
-/*Entrada:
+
+Entrada:
 9.00
 12.00
 10.70
@@ -39,9 +38,8 @@ quantidade de séries necessárias para realização da prova de 100 metros.*/
 10.65
 10.97
 -1
-*/
 
-/*Saída
+Saída
 0 0
 */
 
