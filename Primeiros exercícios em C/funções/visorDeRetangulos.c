@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int testa_retangulo(float a, float b, float c, float d, float e, float f, float g, float h){
+void testa_retangulo(float a, float b, float c, float d, float e, float f, float g, float h){
 
     if(c > g && d > h && e > a && f > b){
         printf("(<%.2f,%.2f>,<%.2f,%.2f>) contem (<%.2f,%.2f>,<%.2f,%.2f>).\n", a, b, c, d, e, f, g, h);
@@ -9,7 +9,6 @@ int testa_retangulo(float a, float b, float c, float d, float e, float f, float 
     } else {
         printf("Nao posso afirmar!\n");
     }
-    return 1;
 }
 
 int main(){
