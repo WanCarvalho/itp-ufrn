@@ -1,3 +1,22 @@
+/*
+Para ajudar o estagiário Juca a compreender o conceito de funções, você sugeriu a seguinte atividade:
+determinar se dois números são amigos utilizando funções.
+
+Definição: dois números naturais diferentes são amigos se cada um for igual à soma dos divisores do outro
+(sem incluir os próprios números nos divisores).
+
+Assim, você forneceu o trecho de código abaixo e pediu para ele implementar as funções e depois criar um
+programa que recebe dois intervalos naturais L1 = [A,B] e L2 = [C,D] e apresenta todos os valores em L1
+que possuem ao menos um amigo em L2.
+
+Exemplo de entrada	Exemplo de saída
+200 300             O 220 possui um amigo!
+200 300             O 284 possui um amigo!
+
+1 10	            Os intervalos nao apresentam amigos!
+1 100
+*/
+
 #include <stdio.h>
 
 //retorna verdadeiro se numero é divisível por divisor e falso em caso contrário
